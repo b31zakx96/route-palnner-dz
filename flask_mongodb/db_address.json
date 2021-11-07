@@ -1,0 +1,1190 @@
+[{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cb8"
+    },
+    "Id": 1,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Numéro",
+        "ValeurInformation": {
+          "PrefixeNumero": "",
+          "ValeurNumero": 10,
+          "SuffixeNumero": "bis",
+          "Repetition": "2"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Rue",
+          "NomVoie": "20 Aout"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 4,
+      "TypeObjetAdressable": "Appartement",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.85835,
+            -0.311982
+          ]
+        },
+        "TypePositionAdresse": "Centroide",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "10 bis 2, Rue 20 Aout, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cb9"
+    },
+    "Id": 2,
+    "Classe": "Adresse point d’intérêt",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Nom de lieu-dit",
+        "ValeurInformation": {
+          "TypeLieudit": "Place",
+          "ValeurLieudit": "Seddik Ben Yahia"
+        }
+      },
+      {
+        "id": 2,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "El Mouradia",
+          "CodePostale": 16000,
+          "Wilaya": "Alger",
+          "Pays": "Algerie"
+        }
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 2,
+      "TypeObjetAdressable": "Place",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            36.751796,
+            3.05201
+          ]
+        },
+        "TypePositionAdresse": "Centroide",
+        "TypeAcces": "Autre"
+      }
+    },
+    "Adresse": "place Seddik Ben Yahia, El Mouradia 16000 Alger Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cba"
+    },
+    "Id": 3,
+    "Classe": "Adresse point d’intérêt",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "Education",
+          "Valeur": "Université Oran 1 Ahmed Ben Bella"
+        }
+      },
+      {
+        "id": 2,
+        "Type": "Boite postale",
+        "ValeurInformation": {
+          "ValeurBoitePostale": "BP",
+          "NumeroBoitePostale": 1542
+        }
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Essenia",
+          "CodePostale": 31000,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        }
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 3,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.670015,
+            -0.633483
+          ]
+        },
+        "TypePositionAdresse": "Centroide",
+        "TypeAcces": "Autre"
+      }
+    },
+    "Adresse": "Université Oran 1 Ahmed Ben Bella, 1542, Essenia 31000 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cbb"
+    },
+    "Id": 4,
+    "Classe": "Adresse zonale",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "Service",
+          "ValeurOrganisme": "El Aman"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Zone",
+        "ValeurInformation": {
+          "TypeZone": "Cité",
+          "ValeurZone": "Ibn Badis"
+        },
+        "langueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Unité de bâtiment",
+        "ValeurInformation": {
+          "TypeBatiment": "Bâtiment",
+          "NumeroBatiment": 5,
+          "TypeUnite": "Logement",
+          "NumeroUnite": 24,
+          "Niveau": ""
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 4,
+        "Type": "Boite postale",
+        "ValeurInformation": {
+          "ValeurBoitePostale": "BP",
+          "NumeroBoitePostale": 123
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 5,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Djelfa",
+          "CodePostale": 17003,
+          "Wilaya": "Djelfa",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 4,
+      "TypeObjetAdressable": "Place",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            34.150955,
+            3.488951
+          ]
+        },
+        "TypePositionAdresse": "Centroide",
+        "TypeAcces": "Autre"
+      }
+    },
+    "Adresse": "El Aman, cité Ibn Badis, batiment 5 logement 24, 123, Djelfa 17003 Djelfa Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cbc"
+    },
+    "Id": 5,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Numéro",
+        "ValeurInformation": {
+          "PrefixeNumero": "",
+          "ValeurNumero": 25,
+          "SuffixeNumero": "",
+          "Repetition": ""
+        },
+        "LanguecomposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "Valeurinformation": {
+          "TypeVoie": "Boulevard",
+          "NomVoie": "frantz fanon"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 5,  
+      "TypeObjetAdressable": "Hotel",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.851474,
+            -0.312166
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": " 25, Boulevard frantz fanon, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cbd"
+    },
+    "Id": 6,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Nom de lieu-dit",
+        "ValeurInformation": {
+          "TypeOrganisme": "Mosquée",
+          "ValeurOrganisme": "Errahma"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Rue",
+          "NomVoie": "des Martyrs"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 6,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.858771,
+            -0.309868
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Mosquée Errahma, Rue des Martyrs, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cbe"
+    },
+    "Id": 7,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "Banque",
+          "ValeurOrganisme": "Banque Nationale d'Algerie BNA"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Boulevard",
+          "NomVoie": "Emir Abdelkader"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 7,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8553,
+            -0.31266
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Banque Nationale d'Algerie BNA, Boulevard Emir Abdelkader, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cbf"
+    },
+    "Id": 8,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "Valeurinformation": {
+          "TypeOrganisme": "Banque",
+          "ValeurOrganisme": "Banque Exterieure d'Algérie BEA"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Rue",
+          "NomVoie": "Zabana"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 8,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8553,
+            -0.3127
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Banque Exterieure d'Algérie BEA, Rue Zabana, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc0"
+    },
+    "Id": 9,
+    "Classe": "Adresse zonale",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "restauration",
+          "ValeurOrganisme": "restaurant les dauphins"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Zone",
+        "ValeurInformation": {
+          "TypeZone": "Autre",
+          "ValeurZone": "fontaine des gazelles"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 9,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8823,
+            -0.3066
+          ]
+        },
+        "TypePositionAdresse": "Approximative",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Restaurant les dauphins, Autre fontaine des gazelles, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc1"
+    },
+    "Id": 10,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "restauration",
+          "ValeurOrganisme": "Pizzeria London"
+        },
+        "LangueCmposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Rue",
+          "NomVoie": "Habib ghedir"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 10,
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.85688,
+            -0.311
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Pizzeria London, Rue Habib ghedir, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc2"
+    },
+    "Id": 11,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "Valeurinformation": {
+          "TypeOrganisme": "Restauration",
+          "ValeurOrganisme": "Café londres"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "Valeurinformation": {
+          "TypeVoie": "Rue",
+          "NomVoie": "Ali boumendjel"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "Valeurinformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 11,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.85556,
+            -0.3112
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Café londres, Rue Ali boumendjel, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc3"
+    },
+    "Id": 12,
+    "Classe": "Adresse point d’intérêt",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Nom de lieu-dit",
+        "Valeurinformation": {
+          "TypeLieudit": "Lieu-dit",
+          "ValeurLieudit": "Port d'Arzew"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Localité",
+        "Valeurinformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8479,
+            -0.312
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Port d'Arzew, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc4"
+    },
+    "Id": 13,
+    "Classe": "Adresse point d’intérêt",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Nom de lieu-dit",
+        "ValeurInformation": {
+          "TypeLieudit": "Lieu-dit",
+          "ValeurLieudit": "Aéroport d'Oran Ahmed Ben Bella"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Localité",
+        "Valeurinformation": {
+          "Commune": "Essenia",
+          "CodePostale": 31005,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 13,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.6202,
+            -0.606
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Aéroport d'Oran Ahmed Ben Bella, Essenia 31005 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc5"
+    },
+    "Id": 14,
+    "Classe": "Adresse point d’intérêt",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "Valeurinformation": {
+          "TypeOrganisme": "Sport",
+          "ValeurOrganisme": "Stade El Rajaa"
+        },
+        "LangeComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 14,
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8501,
+            -0.3135
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Stade El Rajaa, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc6"
+    },
+    "Id": 15,
+    "Classe": "Adresse point d’intérêt",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "Valeurinformation": {
+          "TypeOrganisme": "Sport",
+          "ValeurOrganisme": "Complexe olympique d’Oran"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Localité",
+        "Valeurinformation": {
+          "Commune": "BIR EL DJIR",
+          "CodePostale": 31001,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "TypeObjetAdressable": "Autre",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.727,
+            -0.5477
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Complexe olympique d’Oran, BIR EL DJIR 31001 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cc7"
+    },
+    "Id": 16,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "Santé",
+          "ValeurOrganisme": "Cabinet Dr Daho"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Numéro",
+        "Valeurinformation": {
+          "PrefixeNumero": "",
+          "ValeurNumero": 17,
+          "SuffixeNumero": "",
+          "Repetition": ""
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Rue",
+          "NomVoie": "Ali boumendjel"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 4,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id":16,
+      "TypeObjetAdressable": "Maison",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.860022,
+            -0.3088
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Cabinet Dr Daho, 17, Rue Ali boumendjel, Arzew 31200 Oran Algerie"
+  },
+  {
+    "_id": {
+        "$oid": "5ec8285d6aec6706501a4cc8"
+    },
+    "Id": 17,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "français",
+    "Composants": [{
+        "id": 1,
+        "type": "Organisme",
+        "valeurinformation": {
+            "typeOrganisme": "Santé",
+            "valeurOrganisme": "Pharmacie Bouziane"
+        },
+        "languecomposantadresse": "Français",
+    }, {
+        "Id": 2,
+        "Type": "Numéro",
+        "ValeurInformation": {
+            "PrefixeNumero": "",
+            "ValeurNumero": 50,
+            "SuffixeNumero": "",
+            "Repetition": ""
+        },
+        "LangueComposantAdresse": "Français"
+    }, {
+        "Id": 3,
+        "Type": "Voie",
+        "ValeurInformation": {
+            "TypeVoie": "Rue",
+            "NomVoie": "Cheikh Abdelkader"
+        },
+        "LangueComposantAdresse": "Français"
+    }, {
+        "Id": 4,
+        "Type": "Localité",
+        "ValeurInformation": {
+            "Commune": "Arzew",
+            "CodePostale": 31200,
+            "Wilaya": "Oran",
+            "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+    }],
+    "ObjetAdressable": {
+        "Id": 17,
+        "TypeObjetAdressable": "Maison",
+        "PositionAdresse": {
+            "Geometrie": {
+                "type": "Point",
+                "coordinates": [35.69038, -0.6409]
+            },
+            "TypePositionAdresse": "Accés sur voie",
+            "TypeAcces": "Principal"
+        }
+    },
+    "Adresse": "Pharmacie Bouziane , 50 , Rue Cheikh Abdelkader , Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4cca"
+    },
+    "Id": 18,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Numéro",
+        "ValeurInformation": {
+          "PrefixeNumero": "",
+          "ValeurNumero": 3,
+          "SuffixeNumero": "",
+          "Repetition": ""
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "Valeurinformation": {
+          "TypeVoie": "Avenue",
+          "NomVoie": "la Palestine"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id":18,
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8565,
+            -0.3127
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": " 3, Avenue la Palestine, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4ccb"
+    },
+    "Id": 19,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "Station de service",
+          "ValeurOrganisme": "Naftal"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Boulevard",
+          "NomVoie": "frantz fanon"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 19,
+      "TypeObjetAdressable": "Station",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.8541,
+            -0.3119
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Station de service Naftal, Boulevard frantz fanon, Arzew 31200 Oran Algerie"
+  },{
+    "_id": {
+      "$oid": "5ec8285d6aec6706501a4ccc"
+    },
+    "Id": 20,
+    "Classe": "Adresse sur voie",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+      {
+        "id": 1,
+        "Type": "Organisme",
+        "ValeurInformation": {
+          "TypeOrganisme": "Station de service",
+          "ValeurOrganisme": "liberté"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 2,
+        "Type": "Voie",
+        "ValeurInformation": {
+          "TypeVoie": "Boulevard",
+          "NomVoie": "zighoud youcef"
+        },
+        "LangueComposantAdresse": "Français"
+      },
+      {
+        "id": 3,
+        "Type": "Localité",
+        "ValeurInformation": {
+          "Commune": "Oran",
+          "CodePostale": 31000,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+        },
+        "LangueComposantAdresse": "Français"
+      }
+    ],
+    "ObjetAdressable": {
+      "Id": 20,
+      "TypeObjetAdressable": "Station",
+      "PositionAdresse": {
+        "Geometrie": {
+          "type": "Point",
+          "coordinates": [
+            35.699,
+            -0.6437
+          ]
+        },
+        "TypePositionAdresse": "Accés sur voie",
+        "TypeAcces": "Principal"
+      }
+    },
+    "Adresse": "Station de service liberté, Boulevard zighoud youcef, Oran 31000 Oran Algerie"
+  },{
+    "_id": {
+        "$oid": "5ed6b582add9ad67887bb4a3"
+    },
+    "Id": 21,
+    "Classe": "Adresse Zonale",
+    "NiveauPreference": 1,
+    "PhaseCycle": "Actuel",
+    "StatutAdresse": "Officiel",
+    "LangueAdresse": "Français",
+    "Composants": [
+   {"id": 1,
+    "type": "Organisme",
+    "ValeurInformation": {
+        "TypeOrganisme": "Santé",
+        "ValeurOrganisme": "Pharmacie Fenzari"
+    },
+    "LangueComposantAdresse": "Français"},
+   {"id": 2,
+    "Type": "Zone",
+    "ValeurInformation": {
+        "TypeZone": "Cité",
+        "ValeurZone": "160 logements"
+    },
+    "LangueComposantAdresse": "Français"
+ },
+   {"id": 3,
+    "Type": "Unité de bâtiment",
+    "ValeurInformation": {
+        "TypeBatiment": "Ilot",
+        "NumeroBatiment": "A",
+        "TypeUnite": "Local",
+        "NumeroUnite": "4",
+        "Niveau": "bloc 6"
+    },
+    "langueComposantAdresse": "Français"
+    },
+    {
+      "id": 4,
+      "Type": "Localité",
+      "ValeurInformation": {
+          "Commune": "Arzew",
+          "CodePostale": 31200,
+          "Wilaya": "Oran",
+          "Pays": "Algerie"
+      }
+    }
+    ],
+    "ObjetAdressable": {
+        "id": 21,
+        "TypeObjetAdressable": "Autre",
+        "PositionAdresse": {
+            "Geometrie": {
+                "type": "Point",
+                "coordinates": [35.851, -0.32778]
+            },
+            "TypePositionAdresse": "Accés sur voie",
+            "TypeAcces": "Principal"
+        }
+    },
+    "Adresse" : "Pharmacie Fenzari , Cité 160 logements , Ilot A local 4 bloc 6 , Arzew 31200 Oran Algerie"
+}]
