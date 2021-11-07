@@ -8,7 +8,7 @@ The application calculates the route between two or more points (navigation), ba
 
 See  [YouTube](https://youtu.be/Y4qvHrP1zcg).
 
-## Video demonstration
+## Video Demonstration
 
 See  [Youtube](https://youtu.be/lK-QNuu5a5I).
 
